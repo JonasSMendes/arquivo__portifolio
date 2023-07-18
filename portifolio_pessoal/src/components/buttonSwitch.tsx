@@ -1,6 +1,8 @@
 import { useTheme } from "@/contexts/Theme"
 import DarkImg from '../../public/assets/dark-mode.png'
 import LightImg from '../../public/assets/mode.png'
+import {BsSunFill} from 'react-icons/bs'
+import {BsSun} from 'react-icons/bs'
 
 export const ButtonSwitch = () => {
 
@@ -14,21 +16,21 @@ export const ButtonSwitch = () => {
 
     return(
         <div
-            className="fixed left-10 right-0 top-0 mt-2 cursor-pointer
+            className=" cursor-pointer p-2 top-0
                 bg-white text-black dark:bg-black dark:text-white
             "
             onClick={handleClickToggle}
         >
             {themeCtx?.theme === 'dark' &&
                 <>
-                <p>Dark</p>
-                <img src={`${DarkImg}`} alt="" />
+                light
+                {BsSunFill}
                 </>
             }
             {themeCtx?.theme === 'light' &&
                 <>
-                <p>Light</p>
-                <img src={`${LightImg}`} alt="" />
+                dark              
+                {BsSun}
                 </>
             }
         </div>

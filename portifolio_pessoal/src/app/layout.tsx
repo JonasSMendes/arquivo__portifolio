@@ -1,3 +1,5 @@
+
+import { ThemeProvider } from '@/contexts/Theme'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -15,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className= {inter.className}>{children}</body>
     </html>
+    
   )
 }
