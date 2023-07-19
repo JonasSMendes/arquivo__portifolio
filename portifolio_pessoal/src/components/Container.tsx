@@ -4,13 +4,13 @@ import { ReactNode } from "react"
 
 export const Container = ({children} :{children: ReactNode}) => {
 
+    const ThemeCtx = useTheme()
+
     return(
         <div
-            className=" w-11/12
-            bg-white text-black
-            dark:bg-black dark:text-white
+            data-theme={`${ThemeCtx?.theme === 'dark'? 'coffee' : 'retro'}`}
+            className="  w-full
             "
-
         >
             {children}
         </div>

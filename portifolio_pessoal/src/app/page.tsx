@@ -5,6 +5,8 @@ import { Container } from "../components/Container"
 import { ButtonSwitch } from "@/components/buttonSwitch"
 import { ThemeProvider } from "@/contexts/Theme"
 import { Budy } from "@/components/Body"
+import { Sobre } from "@/components/Sobre"
+import { ButtonUp } from "@/components/ButtonUp"
 
 export default function Home() {
   return (
@@ -13,8 +15,10 @@ export default function Home() {
       <Container>
         <Headers />
         <Budy/>
+        <Sobre/>
      </Container>
      </div>
+     <ButtonUp/>
    </ThemeProvider>
   )
 }

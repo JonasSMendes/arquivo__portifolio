@@ -1,7 +1,9 @@
 export const Budy = () =>{
     return(
-        <div className="w-full h-screen bg-cyan-300 dark:bg-slate-600">
-
+        <div id="Home" className=" flex justify-center items-center w-full h-screen">
+            <section className="flex">
+                Home
+            </section>
         </div>
     )
 }
