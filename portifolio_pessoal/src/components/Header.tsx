@@ -1,5 +1,3 @@
-
-
 import { useTheme } from "@/contexts/Theme"
 import { ButtonSwitch } from "./buttonSwitch"
 
@@ -7,15 +5,10 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 
 import { useState } from 'react'
 
-
 import { Link } from 'react-scroll'
 
 
-
 export const Headers = () => {
-
-    const ThemeCtx = useTheme()
-
     const [openMenu, setOpenMenu] = useState(false)
     const [activeClass, setActiveClass] = useState(false)
 
@@ -26,12 +19,11 @@ export const Headers = () => {
 
     return (
         <nav
-            className=" md:w-10/12 md:m-auto p-5 bg-transparent dark:bg-transparent md:absolute left-32  md:flex md:items-center md:justify-between"
+            className=" md:w-10/12 md:m-auto p-5 bg-transparent dark:bg-transparent md:absolute md:left-10 lg:left-32 md:flex md:items-center md:justify-between md:mr-20"
         >
             <div className="flex items-center justify-between " >
                 <span className="text-2xl font-[poppins]">
-                    <img className="h-10 inline cursor-pointer" src="#" alt="" />
-                    JonasSmendes
+                    <img className="h-20 inline cursor-pointer" src="assets/headerLogo.png" alt="" />
                 </span>
 
                 {openMenu === false &&
