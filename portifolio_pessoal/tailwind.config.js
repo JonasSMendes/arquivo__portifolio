@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'rose-l': '#ef9995',
+        'laranja-d': '#dc944c'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -18,7 +22,7 @@ module.exports = {
     require('daisyui')
   ],
   daisyui:{
-    themes: ["light", "dark", "cupcake","retro","coffee"]
+    themes: ["light", "dark", "cupcake","retro","coffee","luxury","lemonade","lofi"]
   },
   darkMode: 'class'
 }
