@@ -7,8 +7,9 @@ export const Body = () => {
 
     return (
         <div
+        id='Home'
             style={{
-                backgroundImage: 'url(/assets/walljapan.png)',
+                backgroundImage: 'url(https://i.pinimg.com/originals/16/f3/39/16f339d5fac6bddddd923a01979e2964.gif)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 width: '100%',
@@ -20,10 +21,10 @@ export const Body = () => {
         >
             {/* Conteúdo da sua página */}
 
-            <div className=" w-9/12 h-auto card md:mt-40 flex flex-row lg:card-side bg-base-100 shadow-xl">
-                <figure className=''><img className='hidden md:block w-full' src="https://i.pinimg.com/564x/ce/38/49/ce3849783fb484f3145cc3979e8208cb.jpg" alt="Album" /></figure>
-                <div className="card-body">
-                    <h2 className='xl:mt-10 text-center text-xl'>ola, meu nome é <span className=' p-1 rounded-lg bg-[#ef9995] text-black dark:text-white dark:bg-[#dc944c] font-bold'>Jonas Mendes</span></h2>
+            <div className=" w-5/12 h-auto card md:mt-30 flex flex-row lg:card-side bg-base-100 shadow-xl">
+                
+                <div className="card-body ">
+                    <h2 className='xl:mt-10 text-center text-xl'>ola, meu nome é <span className=' p-1 rounded-lg bg-[#570df8] text-black dark:text-white dark:bg-[#dc944c] font-bold'>Jonas Mendes</span></h2>
 
 
 

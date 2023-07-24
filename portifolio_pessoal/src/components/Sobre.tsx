@@ -2,13 +2,13 @@ export const Sobre = () => {
     return (
         <div
             id="Sobre"
-            className="bg-[#23120e] flex justify-center items-center md:w-full md:m-auto h-screen"
+            className="flex justify-center items-center md:w-full md:m-auto h-screen"
         >
-            <section className="flex w-10/12">
-                <div className="flex flex-row items-center card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img className="md:h-96 hidden md:block " src="https://i.pinimg.com/1200x/d5/96/a0/d596a0b84cb5081a514755ef867924a1.jpg" alt="Album" /></figure>
+            <section className=" flex w-10/12">
+                <div className="flex  flex-row items-center card lg:card-side bg-base-100 shadow-xl">
+                    <figure><img className="md:h-96 hidden md:block " src="https://i.pinimg.com/736x/b0/a2/71/b0a2713459d31e3f57db19bb5428714e.jpg" alt="Album" /></figure>
                     <div className=" xl:w-10/12 w-9/12 card-body">
-                        <h1 className="p-2 bg-[#ef9995] text-black dark:text-white dark:bg-[#dc944c]  card-title">Quem sou eu?</h1>
+                        <h1 className="p-2 bg-[#570df8] text-black dark:text-white dark:bg-[#dc944c]  card-title">Quem sou eu?</h1>
                         <p> Oi, me chamo Jonas e estou no primeiro semestre de Ciência da Computação.
                             Sou um entusiasta da programação e estou constantemente explorando novas tecnologias
                             e linguagens de programação. Tenho um grande interesse em desenvolver soluções inovadoras

@@ -22,7 +22,7 @@ module.exports = {
     require('daisyui')
   ],
   daisyui:{
-    themes: ["light", "dark", "cupcake","retro","coffee","luxury","lemonade","lofi"]
+    themes: ["light", "dark", "cupcake","retro","coffee","luxury","lemonade","lofi", "valentine", "black"]
   },
   darkMode: 'class'
 }

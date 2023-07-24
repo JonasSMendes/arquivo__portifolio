@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/contexts/Theme"
 import { Body } from "@/components/Body"
 import { Sobre } from "@/components/Sobre"
 import { ButtonUp } from "@/components/ButtonUp"
+import { Project } from "@/components/Projects"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Headers />
         <Body/>
         <Sobre/>
+        <Project/>
      </Container>
      </div>
      <ButtonUp/>

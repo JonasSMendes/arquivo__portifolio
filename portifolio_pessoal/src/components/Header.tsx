@@ -19,8 +19,9 @@ export const Headers = () => {
 
     return (
         <nav
-            className=" md:w-10/12 md:m-auto p-5 bg-transparent dark:bg-transparent md:absolute md:left-10 lg:left-32 md:flex md:items-center md:justify-between md:mr-20"
+            className=" md:w-full md:m-auto p-2 backdrop-blur text-white dark:text-gray-500 md:absolute   "
         >
+            <section className="w-10/12 md:m-auto md:flex md:items-center md:justify-between">
             <div className="flex items-center justify-between " >
                 <span className="text-2xl font-[poppins]">
                     <img className="h-20 inline cursor-pointer" src="assets/headerLogo.png" alt="" />
@@ -61,11 +62,11 @@ export const Headers = () => {
                     </Link>
                 </li>
                 <li className="mx-4 my-6  md:my-0 md:-0">
-                    <a href="" className="text-xl hover:text-gray-500
+                    <Link to="projetos" smooth={true} offset={30} duration={500} href="" className="text-xl hover:text-gray-500
                         dark:hover:text-gray-600 duration-500"
                     >
                         PROJETOS
-                    </a>
+                    </Link>
                 </li>
                 <li className="mx-4  my-6 md:my-0 md:-0">
                     <a href="" className="text-xl hover:text-gray-500
@@ -80,7 +81,7 @@ export const Headers = () => {
             </ul>
 
 
-
+            </section>
         </nav>
     )
 }
