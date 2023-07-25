@@ -21,7 +21,7 @@ export const Headers = () => {
         <nav
             className=" md:w-full md:m-auto p-2 backdrop-blur text-white dark:text-gray-500 md:absolute   "
         >
-            <section className="w-10/12 md:m-auto md:flex md:items-center md:justify-between">
+            <section className="w-10/12 m-auto md:m-auto md:flex md:items-center md:justify-between">
             <div className="flex items-center justify-between " >
                 <span className="text-2xl font-[poppins]">
                     <img className="h-20 inline cursor-pointer" src="assets/headerLogo.png" alt="" />

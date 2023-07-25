@@ -1,17 +1,17 @@
 import { TypeAnimation } from 'react-type-animation';
 import React from 'react';
 
-
-
 export const Body = () => {
 
     return (
+        
         <div
         id='Home'
             style={{
-                backgroundImage: 'url(https://i.pinimg.com/originals/16/f3/39/16f339d5fac6bddddd923a01979e2964.gif)',
+                backgroundImage: 'url(https://i.pinimg.com/originals/61/8f/08/618f083c61a7460ce0a6064319af41bd.gif)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
+                backgroundPosition:'bottom',
                 width: '100%',
                 height: '100vh', // Altura da tela inteira
                 display: 'flex',
@@ -21,16 +21,16 @@ export const Body = () => {
         >
             {/* Conteúdo da sua página */}
 
-            <div className=" w-5/12 h-auto card md:mt-30 flex flex-row lg:card-side bg-base-100 shadow-xl">
+            <div className=" w-10/12 md:w-5/12 h-auto card md:mt-30 flex flex-row lg:card-side bg-base-100 shadow-xl">
                 
                 <div className="card-body ">
-                    <h2 className='xl:mt-10 text-center text-xl'>ola, meu nome é <span className=' p-1 rounded-lg bg-[#570df8] text-black dark:text-white dark:bg-[#dc944c] font-bold'>Jonas Mendes</span></h2>
+                    <h2 className='xl:mt-10 text-center text-xl'>ola, meu nome é <span className=' p-1 rounded-lg  text-black dark:text-white font-bold'>Jonas Mendes</span></h2>
 
 
 
 
 
-                    <div className="xl:mt-20 card-actions justify-end">
+                    <div className=" xl:mt-20 card-actions justify-end">
                         <section className=" flex-1 flex flex-col w-80">
                             <img className="w-96 h-auto" src="#" alt="" />
 
@@ -98,6 +98,6 @@ export const Body = () => {
 
 
         </div>
-
+       
     )
 }
