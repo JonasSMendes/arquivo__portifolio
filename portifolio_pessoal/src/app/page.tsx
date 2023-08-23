@@ -10,6 +10,7 @@ import { ButtonUp } from "@/components/ButtonUp"
 import { Project } from "@/components/Projects"
 import { Fade } from "react-awesome-reveal";
 import { CustomAnimation } from "@/components/RevelFade"
+import { Footer } from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Body/>
         <Sobre/>
         <Project/>
+        <Footer/>
      </Container>
      </div>
      <ButtonUp/>

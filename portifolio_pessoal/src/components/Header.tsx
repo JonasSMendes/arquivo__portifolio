@@ -69,11 +69,11 @@ export const Headers = () => {
                     </Link>
                 </li>
                 <li className="mx-4  my-6 md:my-0 md:-0">
-                    <a href="" className="text-xl hover:text-gray-500
+                    <Link to="Contato" smooth={true} offset={30} duration={500} href="" className="text-xl hover:text-gray-500
                         dark:hover:text-gray-600 duration-500"
                     >
                         CONTATOS
-                    </a>
+                    </Link>
                 </li>
 
                 <ButtonSwitch />

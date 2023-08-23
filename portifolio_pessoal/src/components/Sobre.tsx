@@ -26,9 +26,9 @@ export const Sobre = () => {
             
             <section className=" flex w-10/12">
                 <div className="flex  flex-row items-center card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img className="md:h-96 hidden md:block " src="https://i.pinimg.com/736x/b0/a2/71/b0a2713459d31e3f57db19bb5428714e.jpg" alt="Album" /></figure>
+                    <figure><img className="md:h-96 hidden md:block " src="https://i.pinimg.com/564x/fa/16/b2/fa16b2e34200428692221b27e365e558.jpg" alt="Album" /></figure>
                     <div className=" xl:w-10/12 w-9/12 card-body">
-                        <h1 className="p-2 bg-[#570df8] text-black dark:text-white dark:bg-[#dc944c] font-[Maria] text-3xl card-title">Quem sou eu?</h1>
+                        <h1 className="p-2 text-3xl card-title">Quem sou eu?</h1>
                         <p> Oi, me chamo Jonas e estou no primeiro semestre de Ciência da Computação.
                             Sou um entusiasta da programação e estou constantemente explorando novas tecnologias
                             e linguagens de programação. Tenho um grande interesse em desenvolver soluções inovadoras
@@ -38,7 +38,7 @@ export const Sobre = () => {
                             nesta jornada emocionante e contribuir para o avanço da tecnologia.
                             venho melhorando e me desafiando cada vez mais nesse universo da tecnologia,
                             aprendendo linguagens como <span className="font-bold">JavaScript</span>, <span className="font-bold">Java</span>
-                            , <span className="font-bold">Ruby</span>, <span className="font-bold">PhP</span>. 
+                            , <span className="font-bold">PhP</span>. 
                             e bibliotecas como <span className="font-bold">React</span> e <span className="font-bold">Next</span>
                             </p>
                   

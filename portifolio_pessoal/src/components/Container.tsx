@@ -8,7 +8,7 @@ export const Container = ({children} :{children: ReactNode}) => {
 
     return(
         <div
-            data-theme={`${ThemeCtx?.theme === 'dark'? 'coffee' : 'light'}`}
+            data-theme={`${ThemeCtx?.theme === 'dark'? 'dark' : 'light'}`}
             className="  w-full
             "
         >
