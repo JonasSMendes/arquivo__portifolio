@@ -10,24 +10,24 @@ import { ButtonUp } from "@/components/ButtonUp"
 import { Project } from "@/components/Projects"
 import { Fade } from "react-awesome-reveal";
 import { CustomAnimation } from "@/components/RevelFade"
-import { Footer } from "@/components/Footer"
+import { Tecnologia } from "@/components/Tecnologia"
 
 export default function Home() {
   return (
-    
-    <ThemeProvider>  
+
+    <ThemeProvider>
       <div className="flex items-center justify-center">
-      <Container>
-        <Headers />
-        <Body/>
-        <Sobre/>
-        <Project/>
-        <Footer/>
-     </Container>
-     </div>
-     <ButtonUp/>
-   </ThemeProvider>
-   
-   
+        <Container>
+          <Headers />
+          <Body />
+          <Sobre />
+          <Tecnologia />
+          <Project />
+        </Container>
+      </div>
+      <ButtonUp />
+    </ThemeProvider>
+
+
   )
 }

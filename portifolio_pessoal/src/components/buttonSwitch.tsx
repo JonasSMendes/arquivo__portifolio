@@ -16,7 +16,7 @@ export const ButtonSwitch = () => {
 
     return (
         <div
-            className=" cursor-pointer pl-10 p-2 top-0
+            className=" cursor-pointer pl-4 p-2 top-0
                
             "
             onClick={handleClickToggle}
