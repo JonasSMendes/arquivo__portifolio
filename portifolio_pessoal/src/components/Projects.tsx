@@ -3,7 +3,7 @@
 export const Project = () => {
     return (
 
-        <div id="projetos" className="pb-10 flex flex-col h-full p-2">
+        <div id="projetos" className="pb-10 flex flex-col h-full md:h-screen p-2">
             <section className="flex justify-center items-center">
                 <h1 className="pb-10 md:mr-0 md:text-5xl font-semibold p-2 rounded text-3xl font-[Maria]">Projetos</h1>
             </section>
