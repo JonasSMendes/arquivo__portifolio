@@ -1,10 +1,13 @@
 {
   "name": "portifolio_pessoal",
   "version": "0.1.0",
+  "homepage": "https://JonasSMendes.github.io/portifolio_jonasSmendes",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -29,6 +32,7 @@
   },
   "devDependencies": {
     "@types/react-scroll": "^1.8.7",
-    "daisyui": "^3.2.1"
+    "daisyui": "^3.2.1",
+    "gh-pages": "^6.0.0"
   }
 }
