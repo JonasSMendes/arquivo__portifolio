@@ -26,7 +26,7 @@ export const Headers = () => {
              md:items-center md:justify-between">
                 <div className="flex items-center justify-between " >
                     <span className="text-2xl font-[poppins]">
-                        <img className="h-12 inline cursor-pointer bg-black rounded dark:bg-transparent" src="assets/headerLogo.png" alt="" />
+                        <img className="h-12 inline cursor-pointer bg-black md:bg-transparent rounded dark:bg-transparent" src="assets/headerLogo.png" alt="" />
                     </span>
 
                     {openMenu === false &&
@@ -57,32 +57,32 @@ export const Headers = () => {
 
                     <li className="mx-4 my-6 md:my-0">
                         <Link to="Home" smooth={true} offset={50}
-                            duration={500} href="" className="text-xl hover:text-gray-500
-                        dark:hover:text-gray-600 duration-500"
+                            duration={500} href="" className="text-xl md:text-white md:hover:text-gray-300
+                            dark:text-gray-500 dark:hover:text-gray-400 duration-500"
                         >
                             HOME
                         </Link>
                     </li>
                     <li className="mx-4 my-6 md:my-0 md:-0">
                         <Link to="Sobre" smooth={true} offset={50}
-                            duration={500} href="" className="text-xl hover:text-gray-500
-                        dark:hover:text-gray-600 duration-500"
+                            duration={500} href="" className="text-xl md:text-white md:hover:text-gray-300
+                            dark:text-gray-500 dark:hover:text-gray-400 duration-500"
                         >
                             SOBRE
                         </Link>
                     </li>
                     <li className="mx-4  my-6 md:my-0 md:-0">
                         <Link to="tecnologia" smooth={true} offset={30}
-                            duration={500} href="" className="text-xl hover:text-gray-500
-                        dark:hover:text-gray-600 duration-500"
+                            duration={500} href="" className="text-xl md:text-white md:hover:text-gray-300 
+                            dark:text-gray-500 dark:hover:text-gray-400 duration-500"
                         >
                             TECNOLOGIAS
                         </Link>
                     </li>
                     <li className="mx-4 my-6  md:my-0 md:-0">
                         <Link to="projetos" smooth={true} offset={30}
-                            duration={500} href="" className="text-xl hover:text-gray-500
-                        dark:hover:text-gray-600 duration-500"
+                            duration={500} href="" className="text-xl md:text-white md:hover:text-gray-300
+                             dark:text-gray-500 dark:hover:text-gray-400 duration-500"
                         >
                             PROJETOS
                         </Link>
