@@ -6,6 +6,7 @@ import IconMysql from "./icons/Icon-Sql"
 import IconTypescript from "./icons/Icon-TypeScript"
 import IconLogoJavascript from "./icons/Icon-logo-javaScript"
 import IconReact from "./icons/Icon-react"
+import IconTailwind from "./icons/IconTailwind"
 
 export const Tecnologia = () => {
     return (
@@ -45,6 +46,10 @@ export const Tecnologia = () => {
                 <div className="m-auto flex flex-col md:mb-12">
                     <IconMongodb width={85} height={95} />
                     <p className="text-center">Mongodb</p>
+                </div>
+                <div className="m-auto flex flex-col md:mb-12">
+                    <IconTailwind width={85} height={95} />
+                    <p className="text-center">TailWind</p>
                 </div>
             </section>
         </div>

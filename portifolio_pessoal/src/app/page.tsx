@@ -16,7 +16,7 @@ export default function Home() {
   return (
 
     <ThemeProvider>
-      <div className="flex items-center justify-center">
+      <div className=" flex items-center justify-center">
         <Container>
           <Headers />
           <Body />
