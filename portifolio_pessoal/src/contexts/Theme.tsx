@@ -14,33 +14,27 @@ type props = {
 }
 
 export const ThemeProvider = ({ children }: props) => {
+    const [theme, setTheme] = useState(() => {
+        if (typeof window !== 'undefined') {
+            return localStorage.getItem(STORAGE_KEY) || 'light';
+        }
+        return 'light';
+    });
 
-    if (typeof window !== 'undefined') {
-        const [theme, setTheme] = useState(
+    useEffect(() => {
+        if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+        localStorage.setItem(STORAGE_KEY, theme);
+    }, [theme]);
 
-            localStorage.getItem(STORAGE_KEY) || 'light'
-
-        )
-
-        useEffect(() => {
-            if (theme === 'dark') {
-                document.documentElement.classList.add('dark')
-            } else {
-                document.documentElement.classList.remove('dark')
-            }
-            localStorage.setItem(STORAGE_KEY, theme)
-
-
-        }, [theme])
-
-        return (
-            <ThemeContext.Provider value={{ theme, setTheme }}>
-                {children}
-            </ThemeContext.Provider>
-        )
-
-
-    }
-}
+    return (
+        <ThemeContext.Provider value={{ theme, setTheme }}>
+            {children}
+        </ThemeContext.Provider>
+    );
+};
 
 export const useTheme = () => useContext(ThemeContext)
