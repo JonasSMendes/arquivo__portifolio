@@ -22,8 +22,8 @@ export const Sobre = () => {
                             nesta jornada emocionante e contribuir para o avanço da tecnologia.
                             venho melhorando e me desafiando cada vez mais nesse universo da tecnologia,
                             aprendendo linguagens como <span className="font-bold">JavaScript</span>
-                            , <span className="font-bold">PhP</span>.
-                            e bibliotecas como <span className="font-bold">React</span> e <span className="font-bold">Next</span>
+                            , <span className="font-bold">JAVA</span>.
+                            e bibliotecas como <span className="font-bold">Node-js</span>, <span className="font-bold">React</span> e <span className="font-bold">Next</span>
                         </p>
 
                     </div>

@@ -29,6 +29,8 @@ export const ThemeProvider = ({ children }: props) => {
                 document.documentElement.classList.remove('dark')
             }
             localStorage.setItem(STORAGE_KEY, theme)
+
+
         }, [theme])
 
         return (
